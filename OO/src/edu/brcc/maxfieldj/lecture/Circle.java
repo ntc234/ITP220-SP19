@@ -1,6 +1,9 @@
 package edu.brcc.maxfieldj.lecture;
 
-public class Circle {
+/**
+ * @author Evans & Flanagan Java in a Nutshell
+ */
+public class Circle extends Shape implements Centered {
    private double radius;
 
    public Circle() {
@@ -30,5 +33,10 @@ public class Circle {
       return "Circle{" +
           "radius=" + radius +
           '}';
+   }
+
+   @Override
+   public double getArea() {
+      return Math.PI * radius * radius;
    }
 }

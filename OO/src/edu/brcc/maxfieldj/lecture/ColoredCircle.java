@@ -1,5 +1,8 @@
 package edu.brcc.maxfieldj.lecture;
 
+/**
+ * @author Evans & Flanagan Java in a Nutshell
+ */
 public class ColoredCircle extends Circle {
    private String color;
 
