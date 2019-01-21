@@ -1,6 +1,6 @@
 package edu.brcc.maxfieldj.lecture;
 
-public class Square extends Shape implements Centered {
+public class Square extends Shape {
    private double side;
 
    public Square() {

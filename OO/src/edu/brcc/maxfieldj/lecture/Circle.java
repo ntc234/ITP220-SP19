@@ -3,7 +3,7 @@ package edu.brcc.maxfieldj.lecture;
 /**
  * @author Evans & Flanagan Java in a Nutshell
  */
-public class Circle extends Shape implements Centered {
+public class Circle extends Shape {
    private double radius;
 
    public Circle() {
